@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-box {
+    width: 380px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #243b55;
+    margin-bottom: 8px;
+}
+
+.login-box > p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 7px;
+    color: #333;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #243b55;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #243b55;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #141e30;
+}
+
+.signup-text {
+    font-size: 14px;
+}
+
+.signup-text a {
+    color: #243b55;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 240px;
+    background: #141e30;
+    padding: 30px 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sidebar a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 14px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.sidebar a:hover {
+    background: #243b55;
+    color: white;
+}
+
+.main-content {
+    flex: 1;
+    padding: 45px;
+    background: #f5f7fa;
+}
+
+.main-content h1 {
+    color: #141e30;
+}
+
+.subtitle {
+    color: #777;
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    color: #555;
+}
+
+.card p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #243b55;
+    margin: 12px 0;
+}
+
+.card span {
+    color: #888;
+}
+
+.welcome-box {
+    background: white;
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.welcome-box h2 {
+    margin-bottom: 20px;
+    color: #243b55;
+}
+
+.welcome-box p {
+    margin: 10px 0;
+    color: #555;
+}
